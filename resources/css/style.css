@@ -1,12 +1,18 @@
+/* GLOBAL DEFAULTS */
+
 body {
     background-color: linen;
 }
+
+/* HEADINGS AND TYPOGRAPHY */
 
 h1 {
     background-color: maroon;
     color: midnightblue;
 
 }
+
+/* HEADER AND MAIN AND FOOTER*/ 
 
 header {
     background-color: moccasin;
@@ -16,6 +22,13 @@ main {
 
     background-color: olive;
 }
+
+footer {
+
+background-color: olivedrab;
+}
+
+/* LAYOUTS */
 
 .layout-wide {
 
