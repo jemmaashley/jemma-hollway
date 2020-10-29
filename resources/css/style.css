@@ -12,6 +12,10 @@ a {
     color: slateblue;
 }
 
+img {
+    max-wdith: 100%;
+}
+
 /* HEADINGS AND TYPOGRAPHY */
 
 h1 {
