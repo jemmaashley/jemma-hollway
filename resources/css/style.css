@@ -9,7 +9,7 @@ body {
 
 a {
 
-    color: slateblue;
+    color: moccasin;
 }
 
 img {
@@ -19,8 +19,8 @@ img {
 /* HEADINGS AND TYPOGRAPHY */
 
 h1 {
-    background-color: maroon;
-    color: midnightblue;
+    background-color: moccasin;
+    color:burlywood;
 
 }
 
@@ -35,6 +35,7 @@ h2 {
 
 header {
     background-color: moccasin;
+    color: olive;
 }
 
 main {
