@@ -10,5 +10,17 @@ h1 {
 
 header {
     background-color: moccasin;
+}
+
+main {
+
+    background-color: olive;
+}
+
+.layout-wide {
+
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
 
 }
