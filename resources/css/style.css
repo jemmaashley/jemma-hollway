@@ -1,4 +1,6 @@
 /* GLOBAL DEFAULTS */
+@import'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
+
 
 body {
     background-color: linen;
@@ -13,7 +15,7 @@ a {
 }
 
 img {
-    max-wdith: 100%;
+    max-width: 100%;
 }
 
 /* HEADINGS AND TYPOGRAPHY */
@@ -63,5 +65,13 @@ padding: 20px;
 
 /*NAVIGATION*/
 
+
+
 /*MODULES*/
+.news-component {
+    background-color: thistle;
+    padding: 20px;
+}
+
+
 
