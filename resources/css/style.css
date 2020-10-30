@@ -14,7 +14,8 @@ a {
     color: moccasin;
 }
 
-img {
+img, 
+iframe {
     max-width: 100%;
 }
 
@@ -71,6 +72,17 @@ padding: 20px;
 .news-component {
     background-color: thistle;
     padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+
+    .news-component {
+        background-color: whitesmoke;
+
+        display: grid; 
+       
+        grid-template-columns: 50% 50%;
+    }
 }
 
 
