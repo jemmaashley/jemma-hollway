@@ -1,16 +1,29 @@
 /* GLOBAL DEFAULTS */
 @import'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
 
+@import url("https://use.typekit.net/loh5sap.css");
+
+
+
+* {
+    box-sizing: border-box;
+}
+
 
 body {
+
     background-color: linen;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'interstate', sans-serif;
+
+    line-height: 1.6;
 
 }
 
 a {
 
+    font-weight: 700; 
+    font-style: italic;
     color: moccasin;
 }
 
@@ -80,7 +93,7 @@ padding: 20px;
         background-color: whitesmoke;
 
         display: grid; 
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
         
 
