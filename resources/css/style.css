@@ -18,6 +18,8 @@ body {
 
     line-height: 1.6;
 
+    color: darkred;
+
 }
 
 a {
@@ -25,6 +27,10 @@ a {
     font-weight: 700; 
     font-style: italic;
     color: moccasin;
+}
+
+a:hover {
+    color: black
 }
 
 img, 
