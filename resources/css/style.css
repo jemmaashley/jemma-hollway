@@ -123,8 +123,9 @@ background-color: #f5c2c9;
 
 .about-me1 {
   display: grid; 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  
 }
 
 
@@ -135,6 +136,7 @@ background-color: #f5c2c9;
         display: grid; 
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
+        
         
     }
 }
