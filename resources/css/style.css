@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-    color: #d7a846
+    color: #1b3f2e
 }
 
 img, 
@@ -48,6 +48,13 @@ h1 {
     font-size: 100px;
 }
 
+h2 {
+    color: #1b3f2e;
+    font-family: hatch, serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 30px;
+}
 
 h3 {
 
@@ -114,11 +121,15 @@ background-color: #f5c2c9;
 
 /*MODULES*/
 
+.about-me {
+    
+}
+
 
 
 @media screen and (min-width: 800px) {
 
-    .about-me-block {
+    .about-me {
         display: grid; 
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px
