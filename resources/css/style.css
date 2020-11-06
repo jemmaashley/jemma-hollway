@@ -12,13 +12,11 @@
 
 body {
 
-    background-color: linen;
-
     font-family: 'interstate', sans-serif;
 
     line-height: 1.6;
 
-    color: darkred;
+    color: #2d3d89;
 
 }
 
@@ -26,11 +24,11 @@ a {
 
     font-weight: 700; 
     font-style: italic;
-    color: moccasin;
+    color:#d54237;
 }
 
 a:hover {
-    color: black
+    color: #d7a846
 }
 
 img, 
@@ -41,33 +39,28 @@ iframe {
 /* HEADINGS AND TYPOGRAPHY */
 
 h1 {
-    background-color: moccasin;
-    color:burlywood;
-
+    color: #1b3f2e;
 }
 
 h2 {
-    color: rosybrown;
+    color: #1b3f2e;
     font: size 20px;
-
-
 }
 
 /* HEADER AND MAIN AND FOOTER*/ 
 
 header {
-    background-color: moccasin;
-    color: olive;
+    background-color:#d54237;
 }
 
 main {
 
-    background-color: olive;
+    background-color:#f5c2c9;
 }
 
 footer {
 
-background-color: olivedrab;
+background-color:#d54237;
 }
 
 /* LAYOUTS */
