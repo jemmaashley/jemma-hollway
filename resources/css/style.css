@@ -132,7 +132,7 @@ background-color: #f5c2c9;
     .about-me {
         display: grid; 
         grid-template-columns: 1fr 1fr;
-        grid-gap: 20px
+        grid-gap: 30px
         
     }
 }
