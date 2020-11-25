@@ -12,7 +12,7 @@
 
 body {
 
-    font-family: "Inconsolata";
+    font-family: "forma-djr-display";
 
     font-size: 20px;
    
@@ -26,7 +26,7 @@ body {
 a {
 
     font-weight: 700; 
-    color: #d7a846;
+    color: #f5c2c9;
 }
 
 a:hover {
@@ -48,32 +48,27 @@ h3
 }
 
 h1 {
-    font-family: hatch, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-}
-
-h2 {
-    font-family: hatch, serif;
-    font-weight: 400px;
+    font-family: "forma-djr-display";
+    font-weight: 100px;
     font-style: normal;
     font-size: 30px;
 }
 
+h2 {
+    font-family: "forma-djr-display";
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+}
+
 h3 {
-    font-family: "Inconsolata"; 
+    font-family: "forma-djr-display"; 
     font-weight: bold; color: #f5c2c9; 
     font-size: 16px;
 }
 
 /* DESKTOP FONT SIXES */
 
-@media screen and (min-width: 800px) {
-    h1 {
-        font-size: 100px;
-    }
-}
 
 
 /* HEADER AND LANDING AND MAIN AND FOOTER*/ 
@@ -83,6 +78,7 @@ header {
     position: -webkit-sticky; /*for safari*/
     position: sticky;
     top: 0;
+    padding: 0px;
 }
 
 .logo-wrapper img {
@@ -92,26 +88,16 @@ header {
 .site-title {
     font-size: 30px;
     font-weight: bold;
-    font-family: "hatch", serif;
-}
-
-@media screen and (min-width: 600px) { 
-
-    .logo-wrapper img {
-        max-width: 300px;
-    }
-
+    font-family: "forma-djr-display";
 }
 
 
 main {
-
-    background-color: linen;
+    background-color: white;
 }
 
 footer {
-
-background-color:#d54237;
+    background-color:#d54237;
 }
 
 
@@ -124,13 +110,12 @@ background-color:#d54237;
     margin-right: 30px;
     padding: 0.5px;
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 70% 10% 10% 10%;
 }
 
 .layout-body {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 30px;
+    margin: auto;
+    max-width: 1500px;
     text-align: justify;
 }
 
@@ -145,14 +130,11 @@ background-color:#d54237;
         padding: 20px;
     }
 }
-.layout-body-pink {
-background-color: #f5c2c9;
-}
 
-.layout-body-yellow {
-    background-color: #d7a846;
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
    
 
 
@@ -167,8 +149,8 @@ background-color: #f5c2c9;
 
 .about-me1 {
   display: grid; 
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   
 }
 
@@ -176,12 +158,10 @@ background-color: #f5c2c9;
 
 @media screen and (min-width: 800px) {
 
-    .about-me {
+    .about-me1 {
         display: grid; 
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
-        
-        
     }
 }
 
