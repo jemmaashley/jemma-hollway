@@ -113,7 +113,7 @@ footer {
     margin-left: 30px;
     margin-right: 30px;
     display: grid;
-    grid-template-columns: 110% 10% 10% 10%;
+    grid-template-columns: 110% 10% 10% 10%
 }
 
 .layout-body {
