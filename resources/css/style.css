@@ -93,7 +93,9 @@ main {
 
 footer {
     background-color: #1b3f2e;
-    color: #1b3f2e;
+    color: #f5c2c9;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -152,7 +154,7 @@ footer {
     .nav-prompt{
         display: none;
     }
-    
+
     .nav-inner ul {
         display: flex;
         justify-content: space-between;
