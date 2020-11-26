@@ -13,11 +13,18 @@
 body {
 
     font-family: "arial";
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.6;
     color: black;
 
 }
+
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+}
+
 
 
 a {
@@ -49,7 +56,7 @@ h3
 h1 {
     font-family: "forma-djr-display";
     font-weight: 10px;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1;
 }
 
@@ -57,7 +64,7 @@ h1 {
     h1 {
         font-family: "forma-djr-display";
         font-weight: 100px;
-        font-size: 40px;
+        font-size: 42px;
         line-height: 1;
     }
 }
