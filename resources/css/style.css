@@ -134,7 +134,25 @@ footer {
 
 }
 
+/* This is for mobile view */
+@media screen and (max-width: 800px) {
+    .nav-inner {
+        max-height: 0;
+        overflow: hidden;
+
+    }
+
+    .nav-inner.open {
+        max-height: 100vh;
+    }
+}
+
+/* This is for large screen view */ 
 @media screen and (min-width: 800px) {
+    .nav-prompt{
+        display: none;
+    }
+    
     .nav-inner ul {
         display: flex;
         justify-content: space-between;
