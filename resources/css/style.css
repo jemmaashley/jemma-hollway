@@ -95,7 +95,6 @@ footer {
     background-color: #1b3f2e;
     color: #f5c2c9;
     text-align: center;
-    padding: 10px;
 }
 
 
@@ -176,4 +175,13 @@ footer {
         display: grid; 
         grid-template-columns: 6fr 4fr;
     }
+}
+
+.subscription-wrapper {
+    padding: 30px;
+}
+
+.subscription-wrapper label {
+    color: #f5c2c9;
+    display: block;
 }
