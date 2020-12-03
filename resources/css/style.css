@@ -200,6 +200,10 @@ footer {
 
 }
 
+.writing-brag { 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .writing-brag a {
 color: #1b3f2e;
 }
@@ -230,6 +234,17 @@ color: #1b3f2e;
     }
 
 
+.article {
+    padding-top: 20 px;
+    padding-bottom: 20px;
 
+}
+
+@media screen and (min-width:800px) {
+    .article {
+        padding: 80px;
+        text-align: justify;
+    }
+}
 
 
