@@ -193,7 +193,7 @@ footer {
 }
 
 .gallery img {
-    transition: 0.5s;
+    transition: 1s;
 }
 .gallery a:hover img {
     transform: scale(1.1);
