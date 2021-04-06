@@ -204,7 +204,7 @@ footer {
 }
 
 .about-me-text {
-    text-align: justify;
+    text-align: justify-left;
 }
 
 .gallery img {
@@ -218,6 +218,7 @@ footer {
 .writing-brag { 
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
 .writing-brag a {
 color: #1b3f2e;
