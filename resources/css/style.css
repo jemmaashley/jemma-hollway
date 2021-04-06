@@ -74,7 +74,7 @@ h1 {
     color: black;
 }
     }
-}
+
 
 h2 {
     font-family: "forma-djr-display";
@@ -97,6 +97,7 @@ header {
     font-size: 30px;
     font-weight: bold;
     font-family: "forma-djr-display";
+
     
 }
 
@@ -135,6 +136,10 @@ footer {
 
 
 /*NAVIGATION*/
+
+.navigation {
+    padding: inherit;
+}
 
 .nav-inner ul {
     list-style: none;
@@ -196,6 +201,10 @@ footer {
 .subscription-wrapper label {
     color: #f5c2c9;
     display: block;
+}
+
+.about-me-text {
+    text-align: justify;
 }
 
 .gallery img {
